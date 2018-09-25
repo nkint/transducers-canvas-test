@@ -1,0 +1,24 @@
+{
+  "name": "transducers-canvas-test",
+  "version": "0.0.1",
+  "description": "test with vanilla canvas and @thi.ng/transducers",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nkint <nootropic.kint@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@thi.ng/transducers": "^2.1.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7",
+    "typescript": "^3.0.3"
+  },
+  "browserslist": [
+    "last 3 Chrome versions"
+  ],
+  "browser": {
+    "process": false
+  }
+}
